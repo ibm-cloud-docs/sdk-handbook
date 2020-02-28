@@ -1,0 +1,31 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="sdk-handbook" category="platform_services" audience="platform" href="/docs/sdk-handbook?topic=sdk-handbook-intro" path="sdk-handbook"}
+IBM Cloud SDK Handbook
+
+    {: .navgroup id="learn"}
+    index.md
+    fundamentals/codingstyle.md
+    fundamentals/content.md
+    fundamentals/distribution.md
+    fundamentals/documentation.md
+    fundamentals/errors.md
+    fundamentals/naming.md
+    fundamentals/pagination.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    languages/go/go.md
+    languages/java/java.md
+    languages/node/node.md
+    languages/python/python.md
+    languages/swift/swift.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    tools/devtools.md
+    tools/sdkgeneration.md
+    fundamentals/support.md
+    meta/contributing.md
+    {: .navgroup-end}
