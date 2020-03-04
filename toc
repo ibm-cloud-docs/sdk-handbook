@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="sdk-handbook" category="platform_services" audience="platform" href="/docs/sdk-handbook?topic=sdk-handbook-intro" path="sdk-handbook"}
+{: .toc subcollection="sdk-handbook" category="dev_ops" audience="platform" href="/docs/sdk-handbook?topic=sdk-handbook-intro" path="sdk-handbook"}
 IBM Cloud SDK Handbook
 
     {: .navgroup id="learn"}
