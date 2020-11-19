@@ -27,7 +27,7 @@ Your JavaScript library should be written in [TypeScript](https://www.typescript
 ## Publishing
 {: #node-publishing}
 
-All Node SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#open-source).  The releases of these SDKs should be published on [NPM](https://www.npmjs.com/).
+All Node SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#open-source).  The releases of these SDKs should be published on [NPM](https://www.npmjs.com/). Your NPM package should be [scoped](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages#creating-a-scoped-public-package) with [`@ibm-cloud`](https://www.npmjs.com/search?q=%40ibm-cloud), so that NPM users can find similar packages across NPM.
 
 Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#semantic-versioning).
 
@@ -94,7 +94,7 @@ Your SDK is not useful if your audience cannot understand how to consume it in o
 
 * `README.md`
 * NPM metadata
-* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-coding-style#documented-in-contributing)
+* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#contributor-documentation)
 * [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
 * [TypeDoc documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
 * Code Samples
