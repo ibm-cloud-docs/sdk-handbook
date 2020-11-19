@@ -10,10 +10,10 @@ subcollection: sdk-handbook
 
 # Coding style
 
-## Coding style
+## Coding conventions
 
 The SDK MUST adhere to coding style that is clearly documented in the SDK CONTRIBUTING file.
-The SDK SHOULD adopt the coding style recommendation given in the appropriate
+The SDK SHOULD adopt the coding style recommendation that is given in the appropriate
 language-specific section of these guidelines.
 
 ## Idiomatic style

@@ -79,7 +79,7 @@ If you build this capability into your SDK, you must document this mechanism cle
 Your SDK is not useful if your audience cannot understand how to consume it in order to do the basic operations for your service. Your SDK needs to contain the following resources to help your users:
 
 * `README.md`
-* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-coding-style#documented-in-contributing)
+* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#contributor-documentation)
 * [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
 * Code Samples
 * [Service documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation)

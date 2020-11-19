@@ -14,9 +14,9 @@ subcollection: sdk-handbook
 
 Every IBM Service that offers public APIs SHOULD offer SDKs for the languages / platforms
 most commonly used by developers that use the service.
-- Java, Node, Python, and Go are "first-tier" languages that should have SDK support
-- iOS and Android SDKs are important for services that may be used from mobile devices
-- Other languages that may warrant SDK support in particular domains are C#, Ruby, Scala
+- Java, Node, Python, and Go are "first-tier" languages that should have SDK support.
+- iOS and Android SDKs are important for services that may be used from mobile devices.
+- Other languages that may warrant SDK support in particular domains are C#, Ruby, Scala.
 
 ## Basic interface
 
@@ -26,7 +26,7 @@ this relationship should be clear from design of the API.
 
 Operations whose functionality is fully supported by a related operation SHOULD be omitted.
 This can occur, for example, when an operation is exposed with both a `GET` and an `POST` method,
-where the `GET` offers a subset of the features of the `POST` but with with a simpler interface.
+where the `GET` offers a subset of the features of the `POST` but with a simpler interface.
 
 ## Methods
 
@@ -44,8 +44,8 @@ MUST provide a means to access the headers returned in the API response[^design-
 ## Streaming
 
 For a language/runtime that supports stream value types:
-- the SDK SHOULD allow any potentially large input value to a method to be supplied as a stream, and
-- the SDK SHOULD allow the result of a method to be returned as a stream if that value may be large.
+- The SDK SHOULD allow any potentially large input value to a method to be supplied as a stream.
+- The SDK SHOULD allow the result of a method to be returned as a stream if that value may be large.
 
 ## Asynchronous method calls
 
@@ -88,9 +88,9 @@ be supplied on subsequent method invocations.
 ## Retry
 
 The SDK MAY provide an automated retry mechanism provided that the user can specify:
-- the maximum number of retry attempts, including zero,
-- the minimum and maximum time interval between retry attempts, and
-- the HTTP status codes or error classes that should be retried.
+- The maximum number of retry attempts, including zero.
+- The minimum and maximum time interval between retry attempts.
+- The HTTP status codes or error classes that should be retried.
 
 The retry mechanism should respect a "retry-after" response header if one is returned from the service.
 
@@ -112,7 +112,7 @@ rather than being exposed on each method of the SDK.
 
 The SDK SHOULD include both unit and integration tests.
 The SDK SHOULD use a test coverage tool to measure code coverage and
-and establish a coverage target (recommended > 80%) to be achieved for SDK releases.
+establish a coverage target (recommended > 80%) to be achieved for SDK releases.
 See [code coverage](/docs/sdk-handbook?topic=sdk-handbook-developer-tools#code-coverage).
 
 <!-- --------------------------------------------------------------------------- -->

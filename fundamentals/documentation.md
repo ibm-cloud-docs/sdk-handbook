@@ -23,11 +23,9 @@ service invocations should not be described as a "GET /v3/path/to/the/service").
 
 SDK interface documentation SHOULD be integrated into the [IBM Cloud API Reference](https://cloud.ibm.com/apidocs) for the service,
 where the SDK for each language appears in a separate tab.
-See the [adding SDK content](/docs/developing/api?topic=api-docs-sdk-info) section of the
-IBM Cloud API Docs tutorials for information on how to create and publish this documentation.
 
 SDK interface documentation SHOULD also be delivered in a format and location that experienced developers
-for a particular language / platform will find familiar
+for a particular language / platform will find familiar:
 - Javadoc for a Java SDK
 - [TypeDoc](https://typedoc.org/api/index.html) for a Node SDK
 - [Sphinx](http://www.sphinx-doc.org/en/master/) for a Python SDK

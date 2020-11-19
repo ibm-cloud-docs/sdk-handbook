@@ -15,5 +15,5 @@ The SDK MUST support pagination for any methods whose underlying API implements 
 
 ## Pagination helpers
 
-The SDK MAY offer pagination "helpers" -- methods that ease the burden of retrieving paginated lists
-of resources, provided that the network-call complexity of these methods is clear and can be controlled by the user.
+The SDK MAY offer pagination "helper" methods that ease the burden of retrieving paginated lists of resources.
+The network-call complexity of these methods MUST be clear and under the control of the user.
