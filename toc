@@ -16,11 +16,11 @@ IBM Cloud SDK Handbook
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    languages/go/go.md
-    languages/java/java.md
-    languages/node/node.md
-    languages/python/python.md
-    languages/swift/swift.md
+    languages/go.md
+    languages/java.md
+    languages/node.md
+    languages/python.md
+    languages/swift.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
