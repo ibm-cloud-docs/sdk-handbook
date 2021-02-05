@@ -9,6 +9,7 @@ subcollection: sdk-handbook
 ---
 
 # Node
+{: #node}
 
 As one of the most popular programming languages in use today, JavaScript support is imperative to increase adoption of your IBM Cloud service.  The great strength of JavaScript is its flexibility; it can be used in backend [Node.js](https://nodejs.org/) applications, as well as in client side frameworks like [React](https://reactjs.org/), [Angular](https://angularjs.org/) and [Vue](https://vuejs.org/), among others.  This introduces special considerations that need to be observed in order to meet the needs of these diverse use cases.
 

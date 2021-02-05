@@ -9,6 +9,7 @@ subcollection: sdk-handbook
 ---
 
 # Python
+{: #python}
 
 Given its ease of use and adoption for data science applications, [Python](https://www.python.org/) support is imperative to increase adoption of your IBM Cloud service.  Supporting Python applications using [Flask](https://github.com/pallets/flask), [Django](https://www.djangoproject.com/), [Jupyter](https://jupyter.org/), and functional programming paradigms introduces special considerations that need to be observed by your SDK.
 

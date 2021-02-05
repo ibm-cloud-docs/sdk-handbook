@@ -9,6 +9,7 @@ subcollection: sdk-handbook
 ---
 
 # Swift
+{: #swift}
 
 As stated in the [general SDK Guidelines](/docs/sdk-handbook?topic=sdk-handbook-intro), the SDK should make it easy for application developers to access your API in their preferred language. Given its adoption by Apple developers, providing a Swift SDK will allow iOS, macOS, and even server-side applications to leverage the capabilities of your service API in their applications.
 
