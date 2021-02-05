@@ -9,7 +9,7 @@ subcollection: sdk-handbook
 ---
 
 # Go
-{: #go-language}
+{: #go}
 
 Given its rapidly increasing popularity as a server-side language with strong cross-platform portability, Go support is imperative to increase adoption of your IBM Cloud service.
 
