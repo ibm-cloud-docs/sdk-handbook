@@ -50,7 +50,7 @@ Your Go SDK should be packaged as a [Go Module](https://blog.golang.org/using-go
 ### Java
 {: #java-package}
 
-Your Java SDK should publish its artifacts on [JCenter](https://bintray.com/bintray/jcenter) and [Maven Central](https://search.maven.org/).  It is recommended that artifacts use a Maven groupId of `com.ibm.cloud`.
+Your Java SDK should publish its artifacts on [Maven Central](https://search.maven.org/).  It is recommended that artifacts use a Maven groupId of `com.ibm.cloud`.
 
 ### Python
 {: #python-package}
