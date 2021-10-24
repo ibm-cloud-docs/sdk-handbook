@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-06"
+  years: 2019, 2021
+lastupdated: "2021-10-25"
 
 subcollection: sdk-handbook
 
@@ -34,16 +34,15 @@ to allow the value to be streamed to the service.
 
 <!-- ## Pagination - no Java specific content -->
 
-## Coding style
-{: #java-coding-style}
+## Style guidelines
+{: #java-style-guidelines}
 
 For services that support both a traditional Java SDK and an Android SDK, the Java
 SDK SHOULD be designed to be Android compatible, to minimize duplication of code.
 
-### Style checkers
-{: #java-style-checkers}
+You should follow a coding style based on the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 
-Style guidelines should be enforced using the [checkstyle](http://checkstyle.sourceforge.net/) plugin for Maven or Gradle.
+You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-developer-tools) for Java to check style and code coverage.
 
 ## Documentation
 {: #java-documentation}
@@ -51,7 +50,7 @@ Style guidelines should be enforced using the [checkstyle](http://checkstyle.sou
 ### Interface documentation
 {: #java-interface-documentation}
 
-The SDK MUST provide accompanying Javadoc documentation for all external interfaces.
+The SDK MAY provide accompanying Javadoc documentation for all external interfaces.
 
 ## Distribution
 {: #java-distribution}
@@ -60,6 +59,5 @@ The SDK MUST provide accompanying Javadoc documentation for all external interfa
 {: #java-package-management}
 
 Official SDK releases MUST be published in [Maven Central](https://search.maven.org/).
-Official and beta/snapshot relesaes SHOULD be published in [Sonatype](https://oss.sonatype.org).
 
 <!-- ## Support  - no Java specific content -->
