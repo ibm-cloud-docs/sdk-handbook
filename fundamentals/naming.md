@@ -42,7 +42,7 @@ Names for methods or functions SHOULD follow the convention of `<verb>_<noun>`, 
 The following table describes the standard naming conventions for methods and functions that map to operations on resources in a resource-oriented API.
 
 | Verb              | Return type         | Maps to operation          |  Comments  |
-| ----------------- | ------------------- | -------------------------- | |
+| ----------------- | ------------------- | -------------------------- | --- |
 | `list`            | Resource collection | `GET` to the `/resources` endpoint | Return a possibly paginated list of resources. |
 | `create` or `add` | Resource            | `POST` to the `/resources` endpoint | Create new resource. |
 | `get`             | Resource            | `GET` to the `/resources/{id}` endpoint | Return the resource with identifier `{id}`. |
