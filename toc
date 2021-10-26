@@ -10,6 +10,8 @@ IBM Cloud SDK Handbook
     fundamentals/content.md
     fundamentals/distribution.md
     fundamentals/documentation.md
+    fundamentals/testing.md
+    fundamentals/examples.md
     fundamentals/errors.md
     fundamentals/naming.md
     fundamentals/pagination.md
