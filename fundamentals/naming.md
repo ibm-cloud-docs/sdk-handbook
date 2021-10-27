@@ -21,7 +21,7 @@ and SHOULD be consistent with the names in the underlying API.
 {: #naming-pkgnames}
 
 The name of the SDK's installable package MUST be descriptive of the set of services that are supported by the SDK
-and be consistent across all SDKs, to the extent allowed by the [package managers](/docs/sdk-handbook/devtools.html#package-management).
+and be consistent across all SDKs, to the extent allowed by the [package managers](/docs/sdk-handbook?topic=sdk-handbook-devtools#devtools-pkg-mgmt).
 
 For IBM Cloud SDKs, the SDK package name SHOULD be directly derived from the "Category" of the SDK services
 as displayed in the [IBM Cloud catalog](https://cloud.ibm.com/catalog).

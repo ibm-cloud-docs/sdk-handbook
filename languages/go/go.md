@@ -82,7 +82,6 @@ Your SDK is not useful if your audience cannot understand how to consume it in o
 
 * `README.md`
 * [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-contributor-docs)
-* [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-interface-docs)
 * Code Samples
 * [Service documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation)
 

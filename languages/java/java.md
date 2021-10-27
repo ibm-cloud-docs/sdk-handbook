@@ -41,10 +41,12 @@ You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-han
 ## Documentation
 {: #java-documentation}
 
-### Interface documentation
-{: #java-interface-documentation}
+Your SDK is not useful if your audience cannot understand how to consume it in order to do the basic operations for your service. Your SDK needs to contain the following resources to help your users:
 
-The SDK SHOULD provide accompanying Javadoc documentation for all external interfaces.
+* `README.md`
+* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-contributor-docs)
+* Code Samples
+* [Service documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation)
 
 ## Distribution
 {: #java-distribution}

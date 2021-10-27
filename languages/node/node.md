@@ -29,9 +29,9 @@ Your JavaScript library should be written in [TypeScript](https://www.typescript
 ## Publishing
 {: #node-publishing}
 
-All Node SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#open-source).  The releases of these SDKs should be published on [NPM](https://www.npmjs.com/). Your NPM package should be [scoped](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages#creating-a-scoped-public-package) with [`@ibm-cloud`](https://www.npmjs.com/search?q=%40ibm-cloud), so that NPM users can find similar packages across NPM.
+All Node SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-opensrc).  The releases of these SDKs should be published on [NPM](https://www.npmjs.com/). Your NPM package should be [scoped](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages#creating-a-scoped-public-package) with [`@ibm-cloud`](https://www.npmjs.com/search?q=%40ibm-cloud), so that NPM users can find similar packages across NPM.
 
-Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#semantic-versioning).
+Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-semver).
 
 ## Community support
 {: #node-community-support}
@@ -44,7 +44,7 @@ Allow your users to find answers to their questions.  Users should be able to re
 
 You should follow the [Airbnb conventions](https://github.com/airbnb/javascript), with two spaces for indentation.
 
-You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-developer-tools) for JavaScript to check style and code coverage.
+You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-devtools) for JavaScript to check style and code coverage.
 
 ## Streaming support
 {: #node-streaming-support}
@@ -98,8 +98,6 @@ Your SDK is not useful if your audience cannot understand how to consume it in o
 * `README.md`
 * NPM metadata
 * [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-contributor-docs)
-* [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-interface-docs)
-* [TypeDoc documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-interface-docs)
 * Code Samples
 * [Service documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation)
 

@@ -22,7 +22,7 @@ The SDK SHOULD use the Apache 2.0 license.
 {: #distribution-pkgmgmt}
 
 The SDK SHOULD be distributed using the most popular package management systems for the language.
-See [package management](/docs/sdk-handbook?topic=sdk-handbook-devtools#devtools-pkgmgmt) for the recommended package managers by language and their respective requirements.
+See [package management](/docs/sdk-handbook?topic=sdk-handbook-devtools#devtools-pkg-mgmt) for the recommended package managers by language and their respective requirements.
 
 ## Package dependencies
 {: #distribution-pkgdeps}
