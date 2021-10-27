@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-06"
+  years: 2019, 2021
+lastupdated: "2021-10-27"
 
 subcollection: sdk-handbook
 
@@ -73,6 +73,7 @@ If you build this capability into your SDK, you must document this mechanism cle
 
 
 ## Using python-sdk-core
+{: #python-core}
 
 [IBM **python-sdk-core**](https://github.com/IBM/python-sdk-core) provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
 
@@ -83,9 +84,9 @@ If you build this capability into your SDK, you must document this mechanism cle
 Your SDK is not useful if your audience cannot understand how to consume it in order to do the basic operations for your service. Your SDK needs to contain the following resources to help your users:
 
 * `README.md`
-* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#contributor-documentation)
-* [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
-* [Sphinx documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
+* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-contributor-docs)
+* [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-interface-docs)
+* [Sphinx documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-interface-docs)
 * Code Samples
 * [Service documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation)
 

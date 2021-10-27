@@ -1,16 +1,18 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-01-06"
+  years: 2020, 2021
+lastupdated: "2021-10-27"
 
 subcollection: sdk-handbook
 
 ---
 
 # Developer tools
+{: #devtools}
 
 ## Style checkers
+{: #devtools-style-checkers}
 
 Recommended style checkers are
 
@@ -21,6 +23,7 @@ Recommended style checkers are
 - Swift: [SwiftLint](https://github.com/realm/SwiftLint)
 
 ## Code coverage
+{: #devtools-codecov}
 
 Recommended test coverage tools are:
 
@@ -31,31 +34,31 @@ Recommended test coverage tools are:
 - Swift: [Codecov](https://codecov.io/)
 
 ## Package management / distribution
-{: #package-management}
+{: #devtools-pkg-mgmt}
 
 It is highly recommended that individual services belonging to an IBM Cloud service category are delivered together within a single SDK project (one project per language). For example, the services within the Platform Services category are contained within the `platform-services-go-sdk` project.
 
 Recommended package management / distribution systems:
 
-### Node
-{: #node-package}
-
-Your Node SDK should be released as an [npm](https://www.npmjs.com/) package within the [ibm-cloud](https://www.npmjs.com/org/ibm-cloud) organization. It is recommended that your package name follows the pattern of ibm-<service-category> if possible (for example, `ibm-platform-services` or `ibm-networking-services`). Using [NPM Scopes](/docs/sdk-handbook?topic=sdk-handbook-node#node-publishing) is strongly encouraged.
-
 ### Go
-{: #go-package}
+{: #devtools-pkg-go}
 
 Your Go SDK should be packaged as a [Go Module](https://blog.golang.org/using-go-modules), using the GitHub repository URL as a package name.
 
 ### Java
-{: #java-package}
+{: #devtools-pkg-java}
 
 Your Java SDK should publish its artifacts on [Maven Central](https://search.maven.org/).  It is recommended that artifacts use a Maven groupId of `com.ibm.cloud`.
 
-### Python
-{: #python-package}
+### Node
+{: #devtools-pkg-node}
 
-Your Python SDK should be released on [PyPI](https://pypi.python.org/) / [pip](https://pypi.python.org/pypi/pip) and should have a package name beginning with `ibm-`. It is recommended that your package name follows the pattern of ibm-<service-category> if possible (for example, `ibm-platform-services` or `ibm-networking-services`).
+Your Node SDK should be released as an [npm](https://www.npmjs.com/) package within the [ibm-cloud](https://www.npmjs.com/org/ibm-cloud) organization. It is recommended that your package name follows the pattern of `ibm-<service-category>` if possible (for example, `ibm-platform-services` or `ibm-networking-services`). Using [NPM Scopes](/docs/sdk-handbook?topic=sdk-handbook-node#node-publishing) is strongly encouraged.
+
+### Python
+{: #devtools-pkg-python}
+
+Your Python SDK should be released on [PyPI](https://pypi.python.org/) / [pip](https://pypi.python.org/pypi/pip) and should have a package name beginning with `ibm-`. It is recommended that your package name follows the pattern of `ibm-<service-category>` if possible (for example, `ibm-platform-services` or `ibm-networking-services`).
 
 ### Swift
 {: #swift-package}

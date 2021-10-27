@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-06"
+  years: 2019, 2021
+lastupdated: "2021-10-27"
 
 subcollection: sdk-handbook
 
@@ -14,6 +14,7 @@ subcollection: sdk-handbook
 As one of the most popular programming languages in use today, JavaScript support is imperative to increase adoption of your IBM Cloud service.  The great strength of JavaScript is its flexibility; it can be used in backend [Node.js](https://nodejs.org/) applications, as well as in client side frameworks like [React](https://reactjs.org/), [Angular](https://angularjs.org/) and [Vue](https://vuejs.org/), among others.  This introduces special considerations that need to be observed in order to meet the needs of these diverse use cases.
 
 ## TypeScript
+{: #node-typescript}
 
 Your JavaScript library should be written in [TypeScript](https://www.typescriptlang.org/).  This will allow TypeScript applications and JavaScript alike to use your SDK.
 
@@ -84,6 +85,7 @@ In the interests of making your SDK easy to consume and cloud native, you should
 If you build this capability into your SDK, you must document this mechanism clearly with examples.
 
 ## Using node-sdk-core
+{: #node-core}
 
 [IBM `node-sdk-core`](https://github.com/IBM/node-sdk-core) provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
 
@@ -95,9 +97,9 @@ Your SDK is not useful if your audience cannot understand how to consume it in o
 
 * `README.md`
 * NPM metadata
-* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#contributor-documentation)
-* [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
-* [TypeDoc documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
+* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-contributor-docs)
+* [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-interface-docs)
+* [TypeDoc documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-interface-docs)
 * Code Samples
 * [Service documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation)
 
