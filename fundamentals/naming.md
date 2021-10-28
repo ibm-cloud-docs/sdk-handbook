@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-10-27"
+lastupdated: "2021-10-28"
 
 subcollection: sdk-handbook
 
@@ -23,11 +23,10 @@ and SHOULD be consistent with the names in the underlying API.
 The name of the SDK's installable package MUST be descriptive of the set of services that are supported by the SDK
 and be consistent across all SDKs, to the extent allowed by the [package managers](/docs/sdk-handbook?topic=sdk-handbook-devtools#devtools-pkg-mgmt).
 
-For IBM Cloud SDKs, the SDK package name SHOULD be directly derived from the "Category" of the SDK services
-as displayed in the [IBM Cloud catalog](https://cloud.ibm.com/catalog).
+For IBM Cloud SDKs, the SDK package name SHOULD be directly derived from the `category` of the SDK services
+as displayed in the [IBM Cloud API & SDK reference library](https://cloud.ibm.com/docs?tab=api-docs).
 Under this pattern, each service SHOULD have a corresponding module that contains its API operations.
-For example, the Swift [Watson SDK](https://github.com/watson-developer-cloud/swift-sdk) includes all Watson services as different modules, such as [`Sources/VisualRecognitionV3`](https://github.com/watson-developer-cloud/swift-sdk/tree/master/Source/VisualRecognitionV3).
-These multi-service SDKs have the same structure as a single service SDK, but lower the barrier to entry for user adoption and exploration of other services while potentially providing shared utilities across similar services.
+For example, the [Platform Services Node SDK](https://github.com/IBM/platform-services-node-sdk) includes the services found in the [Platform Services](https://cloud.ibm.com/docs?tab=api-docs&category=platform_services) category as separate modules, such as the [Global Search](https://cloud.ibm.com/apidocs/search?code=node) service that can be imported into your Node.js application using an import path of `@ibm-cloud/platform-services/global-search/v2`.  These multi-service SDKs have the same structure as a single-service SDK, but lower the barrier to entry for user adoption and exploration of other services while potentially providing shared utilities across similar services.
 
 ## Classes, structs, and types
 {: #naming-classnames}
