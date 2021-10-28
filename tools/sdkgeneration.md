@@ -1,16 +1,18 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-06"
+  years: 2019, 2021
+lastupdated: "2021-10-27"
 
 subcollection: sdk-handbook
 
 ---
 
 # Why generate SDKs?
+{: #sdkgen}
 
 ## Leverage code generation
+{: #sdkgen-leverage-codegen}
 
 The basic service-level elements of the SDK SHOULD be generated from the API definition.
 
@@ -23,6 +25,7 @@ The reasons for using SDK generation include:
 - Increased adoption. Generated SDKs have common style, making them easier for developers to learn.
 
 ## Core SDK libraries
+{: #sdkgen-core-libs}
 
 SDKs produced with generation require a common set of capabilities, such as networking operations or authentication mechanisms.  Handwritten SDKs are also welcome to leverage these common operations.
 

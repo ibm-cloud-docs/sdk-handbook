@@ -1,0 +1,40 @@
+toc:
+  properties:
+    subcollection: sdk-handbook
+    category: dev_ops
+    audience: platform
+    href: /docs/sdk-handbook
+    path: sdk-handbook
+    label: IBM Cloud SDK Handbook
+
+  entries: 
+  - navgroup: 
+      id: learn
+      topics:
+          - index.md
+          - fundamentals/codingstyle.md
+          - fundamentals/content.md
+          - fundamentals/distribution.md
+          - fundamentals/documentation.md
+          - fundamentals/testing.md
+          - fundamentals/examples.md
+          - fundamentals/errors.md
+          - fundamentals/naming.md
+          - fundamentals/pagination.md
+
+  - navgroup: 
+      id: howto
+      topics:
+          - languages/go/go.md
+          - languages/java/java.md
+          - languages/node/node.md
+          - languages/python/python.md
+          - languages/swift/swift.md
+
+  - navgroup: 
+      id: reference
+      topics:
+          - tools/devtools.md
+          - tools/sdkgeneration.md
+          - fundamentals/support.md
+          - meta/contributing.md

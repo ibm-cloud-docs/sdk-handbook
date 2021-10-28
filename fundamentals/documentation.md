@@ -9,7 +9,7 @@ subcollection: sdk-handbook
 ---
 
 # Documentation
-{: #sdk-docs}
+{: #documentation}
 
 ## Interface documentation
 {: #sdk-interface-docs}
@@ -72,8 +72,7 @@ and what processes to follow when making contributions to the SDK.
 {: #contributing-md}
 
 Provide a CONTRIBUTING.md file in the root of the SDK repo containing the following information:
-- The coding style established for the SDK. This is typically a reference to an externally documented coding
-style for the language, with perhaps some exceptions specific to the SDK.
+- The coding style established for the SDK. This is typically a reference to an externally documented coding style for the language, with perhaps some exceptions specific to the SDK.
 - How to build the SDK
 - How to run the code style checker and use the autofix feature if available
 - How to run the unit tests and integration tests

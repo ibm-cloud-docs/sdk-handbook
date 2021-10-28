@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-01-10"
+  years: 2020, 2021
+lastupdated: "2021-10-27"
 
 subcollection: sdk-handbook
 
@@ -49,11 +49,13 @@ Allow your users to find answers to their questions.  Users should be able to re
 
 You should follow the conventions from [The Official raywenderlich.com Swift Style Guide](https://github.com/raywenderlich/swift-style-guide) and the [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/), with exceptions as follows:
 
-* Use the following style for empty arrays and dictionaries per [The Swift Programming Language](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID461l):
+* Use the following style for empty arrays and dictionaries per [The Swift Programming Language](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID461l):    
+
 ```swift
 let emptyArray = [String]()
 let emptyDictionary = [String: Float]()
 ```
+
 * Use four spaces for indentation
 * Maximum 500 characters line width
 
@@ -87,6 +89,7 @@ If you build this capability into your SDK, you must document this mechanism cle
 Most networking operations in your Swift SDK should be asynchronous.  `DispatchGroups` and other semaphores can be used for synchronous operations.
 
 ### Using swift-sdk-core
+{: #swift-core}
 
 [IBM `swift-sdk-core`](https://github.com/IBM/swift-sdk-core), formerly `watson-developer-cloud/RestKit` provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK to leverage key capabilities in similar manners across the IBM Cloud.
 
@@ -96,8 +99,7 @@ Most networking operations in your Swift SDK should be asynchronous.  `DispatchG
 Your SDK is not useful if your audience cannot understand how to consume it in order to do the basic operations for your service. Your SDK needs to contain the following resources to help your users:
 
 * `README.md`
-* [Contributor Guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#contributor-documentation)
-* [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
+* [Contributor Guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-contributor-docs)
 * Code Samples
 * [Service documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation)
 

@@ -1,21 +1,24 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-06"
+  years: 2019, 2021
+lastupdated: "2021-10-27"
 
 subcollection: sdk-handbook
 
 ---
 
 # Errors
+{: #errors}
 
 ## Error delivery
+{: #errors-delivery}
 
 SDK methods MUST surface errors to the caller in the manner that is idiomatic for the particular language.
 For example, a Go SDK should return an error value from the method, but a Java SDK should raise an `Exception`.
 
 ## Error content
+{: #errors-content}
 
 When an SDK method encounters an error, it MUST capture all relevant information about the error and return it
 in the error structure that is returned to the caller. Relevant information includes the entire contents of the

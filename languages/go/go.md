@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-11-06"
+  years: 2019, 2021
+lastupdated: "2021-10-27"
 
 subcollection: sdk-handbook
 
@@ -21,9 +21,9 @@ Your Go SDK should support Go releases go1.12 and up.
 ## Publishing
 {: #go-publishing}
 
-All Go SDKs should be publicly available in an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#open-source).
+All Go SDKs should be publicly available in an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-opensrc).
 
-Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#semantic-versioning).
+Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-semver).
 
 ## Community support
 {: #go-community-support}
@@ -35,12 +35,12 @@ Allow your users to find answers to their questions.  Users should be able to re
 
 You should follow the conventions from [Golang "Effective Go" style guide](https://golang.org/doc/effective_go.html).
 
-You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-developer-tools) for Go to check style and code coverage.
+You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-devtools) for Go to check style and code coverage.
 
 ## Streaming support
 {: #go-streaming-support}
 
-If your API takes file parameters, you should accept Go file streams (e.g. io.ReadCloser) as an input type.
+If your API takes file parameters, you should accept Go file streams (e.g. `io.ReadCloser`) as an input type.
 
 ## Dependencies
 {: #go-dependencies}
@@ -70,6 +70,7 @@ Your SDK should allow various SDK configuration properties (e.g. service URL, au
 If you build this capability into your SDK, you must document this mechanism clearly with examples.
 
 ### Using go-sdk-core
+{: #go-core}
 
 [IBM `go-sdk-core`](https://github.com/IBM/go-sdk-core) provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
 
@@ -80,8 +81,7 @@ If you build this capability into your SDK, you must document this mechanism cle
 Your SDK is not useful if your audience cannot understand how to consume it in order to do the basic operations for your service. Your SDK needs to contain the following resources to help your users:
 
 * `README.md`
-* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#contributor-documentation)
-* [API reference documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation#interface-documentation)
+* [Contributor guidelines](/docs/sdk-handbook?topic=sdk-handbook-documentation#sdk-contributor-docs)
 * Code Samples
 * [Service documentation](/docs/sdk-handbook?topic=sdk-handbook-documentation)
 
