@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2024
+lastupdated: "2024-07-15"
 
 subcollection: sdk-handbook
 
@@ -16,7 +16,7 @@ Given its rapidly increasing popularity as a server-side language with strong cr
 ## Environment support
 {: #go-environment-support}
 
-Your Go SDK should support Go releases go1.12 and up.
+Your Go SDK should support Go releases go1.20 and up.
 
 ## Publishing
 {: #go-publishing}

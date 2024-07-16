@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2024
+lastupdated: "2024-07-15"
 
 subcollection: sdk-handbook
 
@@ -23,13 +23,13 @@ Your JavaScript library should be written in [TypeScript](https://www.typescript
 
 * All [LTS versions](https://nodejs.org/en/about/releases/) of Node should be supported by your SDK.
 * Your SDK should support all TypeScript releases above 3.1.
-* All modern browsers should be supported by your SDK.
-* Ensure your SDK is compatible with React, Angular, and Vue.
 
 ## Publishing
 {: #node-publishing}
 
 All Node SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-opensrc).  The releases of these SDKs should be published on [NPM](https://www.npmjs.com/). Your NPM package should be [scoped](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages#creating-a-scoped-public-package) with [`@ibm-cloud`](https://www.npmjs.com/search?q=%40ibm-cloud), so that NPM users can find similar packages across NPM.
+
+To avoid unnecessary redundancy, package names MUST NOT include the term "node". For example, the Platform Services Node SDK would use the NPM package name of `@ibm-cloud/platform-services`, not `@ibm-cloud/platform-services-node-sdk`.
 
 Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-semver).
 

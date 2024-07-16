@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-25"
+  years: 2019, 2024
+lastupdated: "2024-07-15"
 
 subcollection: sdk-handbook
 
@@ -33,7 +33,6 @@ for a particular language / platform will find familiar:
 - [TypeDoc](https://typedoc.org/api/index.html) for a Node SDK
 - [Sphinx](http://www.sphinx-doc.org/en/master/) for a Python SDK
 - [Package](https://pkg.go.dev) for a Go SDK
-- Jazzy for a Swift SDK
 
 ## Tutorials and user guides
 {: #sdk-tutorials-user-guides}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2024
+lastupdated: "2024-07-15"
 
 subcollection: sdk-handbook
 
@@ -35,4 +35,3 @@ Core libraries:
 * [IBM `java-sdk-core`](https://github.com/IBM/java-sdk-core)
 * [IBM `node-sdk-core`](https://github.com/IBM/node-sdk-core)
 * [IBM `python-sdk-core`](https://github.com/IBM/python-sdk-core)
-* [IBM `swift-sdk-core`](https://github.com/IBM/swift-sdk-core)

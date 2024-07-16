@@ -6,7 +6,6 @@ toc:
     href: /docs/sdk-handbook
     path: sdk-handbook
     label: IBM Cloud SDK Handbook
-
   entries: 
   - navgroup: 
       id: learn
@@ -21,7 +20,6 @@ toc:
           - fundamentals/errors.md
           - fundamentals/naming.md
           - fundamentals/pagination.md
-
   - navgroup: 
       id: howto
       topics:
@@ -29,8 +27,6 @@ toc:
           - languages/java/java.md
           - languages/node/node.md
           - languages/python/python.md
-          - languages/swift/swift.md
-
   - navgroup: 
       id: reference
       topics:

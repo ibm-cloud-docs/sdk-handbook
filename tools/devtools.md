@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-10-27"
+  years: 2020, 2024
+lastupdated: "2024-07-15"
 
 subcollection: sdk-handbook
 
@@ -20,7 +20,6 @@ Recommended style checkers are
 - Java: [checkstyle](http://checkstyle.sourceforge.net/)
 - Node: [eslint](https://eslint.org/)
 - Python: [pylint](https://www.pylint.org/)
-- Swift: [SwiftLint](https://github.com/realm/SwiftLint)
 
 ## Code coverage
 {: #devtools-codecov}
@@ -31,7 +30,6 @@ Recommended test coverage tools are:
 - Java: [jacoco](http://www.jacoco.org/jacoco/trunk/index.html)
 - Node: [jest](https://jestjs.io/)
 - Python: [coverage](https://pypi.python.org/pypi/coverage)
-- Swift: [Codecov](https://codecov.io/)
 
 ## Package management / distribution
 {: #devtools-pkg-mgmt}
@@ -53,16 +51,11 @@ Your Java SDK should publish its artifacts on [Maven Central](https://search.mav
 ### Node
 {: #devtools-pkg-node}
 
-Your Node SDK should be released as an [npm](https://www.npmjs.com/) package within the [ibm-cloud](https://www.npmjs.com/org/ibm-cloud) organization. It is recommended that your package name follows the pattern of `ibm-<service-category>` if possible (for example, `ibm-platform-services` or `ibm-networking-services`). Using [NPM Scopes](/docs/sdk-handbook?topic=sdk-handbook-node#node-publishing) is strongly encouraged.
+Your Node SDK should be released as an [npm](https://www.npmjs.com/) package within the [`@ibm-cloud`](https://www.npmjs.com/org/ibm-cloud) organization. It is recommended that your package name follows the pattern of `ibm-<service-category>` if possible (for example, `ibm-platform-services` or `ibm-networking-services`). Using [NPM Scopes](/docs/sdk-handbook?topic=sdk-handbook-node#node-publishing) is strongly encouraged.
 
 ### Python
 {: #devtools-pkg-python}
 
 Your Python SDK should be released on [PyPI](https://pypi.python.org/) / [pip](https://pypi.python.org/pypi/pip) and should have a package name beginning with `ibm-`. It is recommended that your package name follows the pattern of `ibm-<service-category>` if possible (for example, `ibm-platform-services` or `ibm-networking-services`).
-
-### Swift
-{: #swift-package}
-
-Your Swift SDK should be released on [Swift Package Manager](https://swift.org/package-manager/) / [CocoaPods](https://cocoapods.org/) / [Carthage](https://github.com/Carthage/Carthage) and should have a package name beginning with `IBM`.
 
 Additional information is present in the [Common SDK Documentation](https://github.com/IBM/ibm-cloud-sdk-common).
