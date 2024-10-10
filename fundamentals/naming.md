@@ -55,7 +55,7 @@ The following table describes the standard naming conventions for methods and fu
 | `delete`          | (None)              | `DELETE` to the `/resources/{id}` endpoint | Delete the resource with identifier `{id}`. |
 | `set`             | Resource            | `PUT` to the `/resources/{id}` endpoint | Create a new resource or update the existing resource with identifier `{id}`. |
 | `check`           | Resource            | `GET` to the `/resources/{id}` endpoint | Success response if resource exists, else error. |
-{: caption="Table 1. Naming conventions for methods and functions" caption-side="bottom"}
+{: caption="Naming conventions for methods and functions" caption-side="bottom"}
 
 Operations that do not fit into one of the standard verb forms SHOULD use an "action" verb form,
 such as "translate" or "synthesize", and MAY omit the noun where it is implied or otherwise unnecessary.
