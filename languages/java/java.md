@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-10-27"
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -12,7 +12,7 @@ subcollection: sdk-handbook
 {: #java}
 
 As a standard bearer for enterprise application development and the native application language for
-Android, Java is a key language to support for your IBM Cloud service.   
+Android, Java is a key language to support for your IBM Cloud service.
 
 ## Content
 {: #java-content}

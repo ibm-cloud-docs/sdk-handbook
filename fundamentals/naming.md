@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-28"
+  years: 2019, 2025
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -69,4 +69,4 @@ All classes and methods of the SDK SHOULD be encapsulated in a namespace wheneve
 Using namespaces minimizes the potential for naming conflicts with other packages and provides structure to the reference documentation.
 
 
-[^method-naming]: Consistent with [Microsoft](https://azure.github.io/azure-sdk/general_design.html#client-interface) and [Google](https://cloud.google.com/apis/design/standard_methods) guidelines.
+[^method-naming]: Consistent with [Microsoft](https://azure.github.io/azure-sdk/general_design.html#client-interface) and [Google](https://google.aip.dev/130) guidelines.

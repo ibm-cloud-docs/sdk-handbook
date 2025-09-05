@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2024
-lastupdated: "2024-07-15"
+  years: 2019, 2025
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -24,7 +24,7 @@ service invocations should not be described as a "GET /v3/path/to/the/service").
 ## Delivery format
 {: #sdk-docs-delivery-format}
 
-SDK interface documentation SHOULD be integrated into the [IBM Cloud API Reference](https://cloud.ibm.com/apidocs) for the service,
+SDK interface documentation SHOULD be integrated into the [IBM Cloud API Reference](https://cloud.ibm.com/docs?tab=api-docs) for the service,
 where the SDK for each language appears in a separate tab.
 
 SDK interface documentation SHOULD also be delivered in a format and location that experienced developers
@@ -42,7 +42,7 @@ This should include how the SDK can be accessed through the package management s
 and how this can be automated in a DevOps pipeline flow for an application using the SDK.
 
 ## Migration guides
-{: #sdk-migration guides}
+{: #sdk-migration-guides}
 
 Your SDK SHOULD provide a migration guide to help users upgrade to the latest version of your SDK.
 
