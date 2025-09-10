@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2025
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -22,9 +22,9 @@ Given its ease of use and adoption for data science applications, [Python](https
 ## Publishing
 {: #python-publishing}
 
-All Python SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#open-source).  The releases of these SDKs should be published on [PyPI](https://pypi.org/).
+All Python SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-opensrc).  The releases of these SDKs should be published on [PyPI](https://pypi.org/).
 
-Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#semantic-versioning).
+Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-semver).
 
 ## Community support
 {: #python-community-support}
@@ -35,14 +35,14 @@ Allow your users to find answers to their questions.  Users should be able to re
 ## Style guidelines
 {: #python-style-guidelines}
 
-You should follow the [PEP8 style guide for Python](https://www.python.org/dev/peps/pep-0008/), with a few modifications, like four spaces instead of tabs for indentation.
+You should follow the [PEP8 style guide for Python](https://peps.python.org/pep-0008/), with a few modifications, like four spaces instead of tabs for indentation.
 
-You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-developer-tools) for Python to check style and code coverage.
+You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-devtools) for Python to check style and code coverage.
 
 ### Docstrings
 {: #python-docstrings}
 
-All non-trivial methods should have docstrings. Docstrings should follow the [PEP257 guidelines](https://www.python.org/dev/peps/pep-0257/). For more examples, see the [Google style guide regarding docstrings](https://google.github.io/styleguide/pyguide.html#381-docstrings).
+All non-trivial methods should have docstrings. Docstrings should follow the [PEP257 guidelines](https://peps.python.org/pep-0257/). For more examples, see the [Google style guide regarding docstrings](https://google.github.io/styleguide/pyguide.html#381-docstrings).
 
 ## Dependencies
 {: #python-dependencies}

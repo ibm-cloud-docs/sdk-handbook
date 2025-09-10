@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-28"
+  years: 2019, 2025
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -55,7 +55,7 @@ The following table describes the standard naming conventions for methods and fu
 | `delete`          | (None)              | `DELETE` to the `/resources/{id}` endpoint | Delete the resource with identifier `{id}`. |
 | `set`             | Resource            | `PUT` to the `/resources/{id}` endpoint | Create a new resource or update the existing resource with identifier `{id}`. |
 | `check`           | Resource            | `GET` to the `/resources/{id}` endpoint | Success response if resource exists, else error. |
-{: caption="Table 1. Naming conventions for methods and functions" caption-side="bottom"}
+{: caption="Naming conventions for methods and functions" caption-side="bottom"}
 
 Operations that do not fit into one of the standard verb forms SHOULD use an "action" verb form,
 such as "translate" or "synthesize", and MAY omit the noun where it is implied or otherwise unnecessary.
@@ -69,4 +69,4 @@ All classes and methods of the SDK SHOULD be encapsulated in a namespace wheneve
 Using namespaces minimizes the potential for naming conflicts with other packages and provides structure to the reference documentation.
 
 
-[^method-naming]: Consistent with [Microsoft](https://azure.github.io/azure-sdk/general_design.html#client-interface) and [Google](https://cloud.google.com/apis/design/standard_methods) guidelines.
+[^method-naming]: Consistent with [Microsoft](https://azure.github.io/azure-sdk/general_design.html#client-interface) and [Google](https://google.aip.dev/130) guidelines.

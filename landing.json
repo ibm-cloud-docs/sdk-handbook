@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "title": "IBM Cloud SDK Handbook",
+  "introduction": "This handbook is intended to serve as a set of standards, styles, and best practices for IBM Cloud SDKs.",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Introduction",
+        "href": "/docs/sdk-handbook?topic=sdk-handbook-intro"
+      },
+      {
+        "title": "Go",
+        "href": "/docs/sdk-handbook?topic=sdk-handbook-go"
+      },
+      {
+        "title": "Java",
+        "href": "/docs/sdk-handbook?topic=sdk-handbook-java"
+      },
+      {
+        "title": "Node",
+        "href": "/docs/sdk-handbook?topic=sdk-handbook-node"
+      },
+      {
+        "title": "Python",
+        "href": "/docs/sdk-handbook?topic=sdk-handbook-python"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "IBM Cloud API Handbook",
+      "description": "A companion guide that defines standards, styles, and best practices for IBM Cloud APIs.",
+      "href": "https://cloud.ibm.com/docs/api-handbook",
+      "type": "article"
+    }
+  ]
+}

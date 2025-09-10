@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-15"
+  years: 2020, 2025
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -17,7 +17,7 @@ subcollection: sdk-handbook
 Recommended style checkers are
 
 - Go: [golint](https://github.com/golang/lint)
-- Java: [checkstyle](http://checkstyle.sourceforge.net/)
+- Java: [checkstyle](https://checkstyle.sourceforge.io/)
 - Node: [eslint](https://eslint.org/)
 - Python: [pylint](https://www.pylint.org/)
 
@@ -29,7 +29,7 @@ Recommended test coverage tools are:
 - Go: [cover](https://golang.org/cmd/cover/)
 - Java: [jacoco](http://www.jacoco.org/jacoco/trunk/index.html)
 - Node: [jest](https://jestjs.io/)
-- Python: [coverage](https://pypi.python.org/pypi/coverage)
+- Python: [coverage](https://pypi.org/project/coverage/)
 
 ## Package management / distribution
 {: #devtools-pkg-mgmt}
@@ -41,7 +41,7 @@ Recommended package management / distribution systems:
 ### Go
 {: #devtools-pkg-go}
 
-Your Go SDK should be packaged as a [Go Module](https://blog.golang.org/using-go-modules), using the GitHub repository URL as a package name.
+Your Go SDK should be packaged as a [Go Module](https://go.dev/blog/using-go-modules), using the GitHub repository URL as a package name.
 
 ### Java
 {: #devtools-pkg-java}
@@ -56,6 +56,6 @@ Your Node SDK should be released as an [npm](https://www.npmjs.com/) package wit
 ### Python
 {: #devtools-pkg-python}
 
-Your Python SDK should be released on [PyPI](https://pypi.python.org/) / [pip](https://pypi.python.org/pypi/pip) and should have a package name beginning with `ibm-`. It is recommended that your package name follows the pattern of `ibm-<service-category>` if possible (for example, `ibm-platform-services` or `ibm-networking-services`).
+Your Python SDK should be released on [PyPI](https://pypi.org/) / [pip](https://pypi.org/project/pip/) and should have a package name beginning with `ibm-`. It is recommended that your package name follows the pattern of `ibm-<service-category>` if possible (for example, `ibm-platform-services` or `ibm-networking-services`).
 
 Additional information is present in the [Common SDK Documentation](https://github.com/IBM/ibm-cloud-sdk-common).

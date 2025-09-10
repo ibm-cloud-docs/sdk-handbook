@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2024
-lastupdated: "2024-07-15"
+  years: 2019, 2025
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -11,7 +11,7 @@ subcollection: sdk-handbook
 # Node
 {: #node}
 
-As one of the most popular programming languages in use today, JavaScript support is imperative to increase adoption of your IBM Cloud service.  The great strength of JavaScript is its flexibility; it can be used in backend [Node.js](https://nodejs.org/) applications, as well as in client side frameworks like [React](https://reactjs.org/), [Angular](https://angularjs.org/) and [Vue](https://vuejs.org/), among others.  This introduces special considerations that need to be observed in order to meet the needs of these diverse use cases.
+As one of the most popular programming languages in use today, JavaScript support is imperative to increase adoption of your IBM Cloud service.  The great strength of JavaScript is its flexibility; it can be used in backend [Node.js](https://nodejs.org/) applications, as well as in client side frameworks like [React](https://react.dev/), [Angular](https://angularjs.org/) and [Vue](https://vuejs.org/), among others.  This introduces special considerations that need to be observed in order to meet the needs of these diverse use cases.
 
 ## TypeScript
 {: #node-typescript}
@@ -21,7 +21,7 @@ Your JavaScript library should be written in [TypeScript](https://www.typescript
 ## Environment support
 {: #node-environment-support}
 
-* All [LTS versions](https://nodejs.org/en/about/releases/) of Node should be supported by your SDK.
+* All [LTS versions](https://nodejs.org/en/about/previous-releases) of Node should be supported by your SDK.
 * Your SDK should support all TypeScript releases above 3.1.
 
 ## Publishing
@@ -54,7 +54,7 @@ If your API takes fileType parameters, you should accept Node.js streams as an i
 ## Dependencies
 {: #node-dependencies}
 
-Use a well-defined, well-documented request library that includes browser support, like [axios](https://github.com/axios/axios), [superagent](https://github.com/visionmedia/superagent), or [node-fetch](https://github.com/node-fetch/node-fetch).
+Use a well-defined, well-documented request library that includes browser support, like [axios](https://github.com/axios/axios), [superagent](https://github.com/forwardemail/superagent), or [node-fetch](https://github.com/node-fetch/node-fetch).
 
 ## Objects for arguments
 {: #node-objects-for-arguments}

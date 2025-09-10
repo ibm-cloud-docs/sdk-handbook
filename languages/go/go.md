@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2024
-lastupdated: "2024-07-15"
+  years: 2019, 2025
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -33,7 +33,7 @@ Allow your users to find answers to their questions.  Users should be able to re
 ## Style guidelines
 {: #go-style-guidelines}
 
-You should follow the conventions from [Golang "Effective Go" style guide](https://golang.org/doc/effective_go.html).
+You should follow the conventions from [Golang "Effective Go" style guide](https://go.dev/doc/effective_go).
 
 You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-devtools) for Go to check style and code coverage.
 

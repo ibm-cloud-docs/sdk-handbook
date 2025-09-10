@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-27"
+lastupdated: "2025-09-05"
 
 subcollection: sdk-handbook
 
@@ -18,7 +18,7 @@ subcollection: sdk-handbook
 
 The SDK MUST have unit tests for each service which include both positive and negative tests of each operation. The negative tests should exercise some of the most common error conditions (missing parameter or property, invalid JSON response body, etc.). In this context, the term "unit tests" refers to the fact that the tests can use mocking to simulate the service endpoint's behavior, rather than interacting with an actual service endpoint.
 
-The goal of the unit tests is to provide broad coverage of the generated SDK code to verify that it works correctly in isolation. 
+The goal of the unit tests is to provide broad coverage of the generated SDK code to verify that it works correctly in isolation.
 
 If you use the IBM SDK generator to build your SDK, it will produce suitable unit test code for the main SDK languages (Go, Java, Node.js, and Python).
 {: tip}
