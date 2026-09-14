@@ -1,15 +1,22 @@
 ---
 
 copyright:
-  years: 2019, 2024
-lastupdated: "2024-07-15"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, sdk generation, code generation, core libraries
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Why generate SDKs?
 {: #sdkgen}
+
+Generating SDKs from an API definition accelerates development and improves quality and consistency across all SDK languages.
+{: shortdesc}
 
 ## Leverage code generation
 {: #sdkgen-leverage-codegen}
@@ -31,7 +38,7 @@ SDKs produced with generation require a common set of capabilities, such as netw
 
 Core libraries:
 
-* [IBM `go-sdk-core`](https://github.com/IBM/go-sdk-core)
-* [IBM `java-sdk-core`](https://github.com/IBM/java-sdk-core)
-* [IBM `node-sdk-core`](https://github.com/IBM/node-sdk-core)
-* [IBM `python-sdk-core`](https://github.com/IBM/python-sdk-core)
+* [IBM `go-sdk-core`](https://github.com/IBM/go-sdk-core){: external}
+* [IBM `java-sdk-core`](https://github.com/IBM/java-sdk-core){: external}
+* [IBM `node-sdk-core`](https://github.com/IBM/node-sdk-core){: external}
+* [IBM `python-sdk-core`](https://github.com/IBM/python-sdk-core){: external}

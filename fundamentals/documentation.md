@@ -1,15 +1,22 @@
 ---
 
 copyright:
-  years: 2019, 2025
-lastupdated: "2025-09-05"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, documentation, interface docs, tutorials, migration guides, contributor docs
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Documentation
 {: #documentation}
+
+These guidelines define the documentation that must accompany an SDK to help users understand and contribute to it.
+{: shortdesc}
 
 ## Interface documentation
 {: #sdk-interface-docs}
@@ -24,15 +31,15 @@ service invocations should not be described as a "GET /v3/path/to/the/service").
 ## Delivery format
 {: #sdk-docs-delivery-format}
 
-SDK interface documentation SHOULD be integrated into the [IBM Cloud API Reference](https://cloud.ibm.com/docs?tab=api-docs) for the service,
+SDK interface documentation SHOULD be integrated into the [IBM Cloud API Reference](https://cloud.ibm.com/docs?tab=api-docs){: external} for the service,
 where the SDK for each language appears in a separate tab.
 
 SDK interface documentation SHOULD also be delivered in a format and location that experienced developers
 for a particular language / platform will find familiar:
 - Javadoc for a Java SDK
-- [TypeDoc](https://typedoc.org/api/index.html) for a Node SDK
-- [Sphinx](http://www.sphinx-doc.org/en/master/) for a Python SDK
-- [Package](https://pkg.go.dev) for a Go SDK
+- [TypeDoc](https://typedoc.org/api/index.html){: external} for a Node SDK
+- [Sphinx](http://www.sphinx-doc.org/en/master/){: external} for a Python SDK
+- [Package](https://pkg.go.dev){: external} for a Go SDK
 
 ## Tutorials and user guides
 {: #sdk-tutorials-user-guides}

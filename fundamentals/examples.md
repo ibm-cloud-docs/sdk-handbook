@@ -1,15 +1,22 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-10-27"
+  years: 2021, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, examples, code samples, working examples
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Examples
 {: #examples}
+
+These guidelines define the working examples that an SDK should provide to illustrate common usage patterns.
+{: shortdesc}
 
 ## SDK working examples
 {: #examples-working}

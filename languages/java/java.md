@@ -1,18 +1,23 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2025-09-05"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, java, java sdk, java style guidelines, maven
 
 subcollection: sdk-handbook
 
 ---
+
+{{site.data.keyword.attribute-definition-list}}
 
 # Java
 {: #java}
 
 As a standard bearer for enterprise application development and the native application language for
 Android, Java is a key language to support for your IBM Cloud service.
+{: shortdesc}
 
 ## Content
 {: #java-content}
@@ -34,7 +39,7 @@ to allow the value to be streamed to the service.
 For services that support both a traditional Java SDK and an Android SDK, the Java
 SDK SHOULD be designed to be Android compatible, to minimize duplication of code.
 
-You should follow a coding style based on the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+You should follow a coding style based on the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html){: external}.
 
 You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-devtools) for Java to check style and code coverage.
 
@@ -54,4 +59,4 @@ Your SDK is not useful if your audience cannot understand how to consume it in o
 ### Package management
 {: #java-package-management}
 
-Official SDK releases MUST be published in [Maven Central](https://search.maven.org/).
+Official SDK releases MUST be published in [Maven Central](https://search.maven.org/){: external}.

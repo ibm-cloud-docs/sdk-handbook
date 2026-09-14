@@ -1,15 +1,22 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2025-09-05"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, errors, error handling, error content
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Errors
 {: #errors}
+
+These guidelines define how an SDK must surface and describe errors to the caller.
+{: shortdesc}
 
 ## Error delivery
 {: #errors-delivery}
