@@ -1,22 +1,27 @@
 ---
 
 copyright:
-  years: 2019, 2025
-lastupdated: "2025-09-05"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, go, go sdk, go style guidelines
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Go
 {: #go}
 
 Given its rapidly increasing popularity as a server-side language with strong cross-platform portability, Go support is imperative to increase adoption of your IBM Cloud service.
+{: shortdesc}
 
 ## Environment support
 {: #go-environment-support}
 
-Your Go SDK should support Go releases go1.20 and up.
+Your Go SDK should support Go releases go1.26 and up.
 
 ## Publishing
 {: #go-publishing}
@@ -28,12 +33,12 @@ Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbo
 ## Community support
 {: #go-community-support}
 
-Allow your users to find answers to their questions.  Users should be able to report problems on GitHub by raising issues on your SDK repository.  Having a public Slack channel is a great way to engage with users who have questions specific to their use cases.
+Allow your users to find answers to their questions. Users should be able to report problems on GitHub by raising issues on your SDK repository. Having a public Slack channel is a great way to engage with users who have questions specific to their use cases.
 
 ## Style guidelines
 {: #go-style-guidelines}
 
-You should follow the conventions from [Golang "Effective Go" style guide](https://go.dev/doc/effective_go).
+You should follow the conventions from [Golang "Effective Go" style guide](https://go.dev/doc/effective_go){: external}.
 
 You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-devtools) for Go to check style and code coverage.
 
@@ -72,7 +77,7 @@ If you build this capability into your SDK, you must document this mechanism cle
 ### Using go-sdk-core
 {: #go-core}
 
-[IBM `go-sdk-core`](https://github.com/IBM/go-sdk-core) provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
+[IBM `go-sdk-core`](https://github.com/IBM/go-sdk-core){: external} provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
 
 
 ## Documentation

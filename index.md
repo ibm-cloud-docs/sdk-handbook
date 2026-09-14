@@ -1,19 +1,16 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
 
 subcollection: sdk-handbook
 
-keywords: "sdk,sdk best practices,IBM Cloud SDKs,software development kit"
+keywords: sdk, sdk best practices, IBM Cloud SDKs, software development kit
 
 ---
 
-{:shortdesc: .shortdesc}
-{:tip: .tip}
-{:note: .note}
-{:codeblock: .codeblock}
+{{site.data.keyword.attribute-definition-list}}
 
 # Introduction
 {: #intro}

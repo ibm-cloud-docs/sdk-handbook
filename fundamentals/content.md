@@ -1,15 +1,22 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, content, languages, methods, streaming, retry, logging, validation
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Content
 {: #content}
+
+These guidelines define the features and behaviors that an SDK must implement to expose the full capabilities of the underlying API.
+{: shortdesc}
 
 ## Languages / platforms
 {: #content-languages}
@@ -82,7 +89,7 @@ the SDK from being used with a later version of the service that supports new en
 {: #content-defaultvalues}
 
 The SDK SHOULD NOT supply default values for any parameter not supplied by the caller, even if a default
-value is clearly specified in the API documentation.  Rather, the assignment of the default should be
+value is clearly specified in the API documentation. Rather, the assignment of the default should be
 delegated to the service, so that the service can alter the default value when appropriate without
 impacting the SDK.
 

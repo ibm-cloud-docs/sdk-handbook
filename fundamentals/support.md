@@ -1,15 +1,22 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, support, support channels, community contributions, contributors license agreement
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Support
 {: #support}
+
+These guidelines define the support model that an SDK should provide to its users and contributors.
+{: shortdesc}
 
 ## Support channels
 {: #support-channels}
@@ -38,5 +45,5 @@ The process for community contributions SHOULD be clearly described in the `CONT
 All contributors to the SDK MUST be required to sign a Contributors License Agreement (CLA)
 before contributions are accepted.
 
-The SDK SHOULD use the [cla-assistant](https://cla-assistant.io/) integration in its GitHub repo.
+The SDK SHOULD use the [cla-assistant](https://cla-assistant.io/){: external} integration in its GitHub repo.
 This is a standard and auditable way to ensure that the CLA is signed by all contributors.

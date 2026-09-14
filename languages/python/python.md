@@ -1,81 +1,85 @@
 ---
 
 copyright:
-  years: 2019, 2025
-lastupdated: "2025-09-05"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, python, python sdk, pypi, style guidelines, docstrings
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Python
 {: #python}
 
-Given its ease of use and adoption for data science applications, [Python](https://www.python.org/) support is imperative to increase adoption of your IBM Cloud service.  Supporting Python applications using [Flask](https://github.com/pallets/flask), [Django](https://www.djangoproject.com/), [Jupyter](https://jupyter.org/), and functional programming paradigms introduces special considerations that need to be observed by your SDK.
+Given its ease of use and adoption for data science applications, [Python](https://www.python.org/){: external} support is imperative to increase adoption of your IBM Cloud service. Supporting Python applications using [Flask](https://github.com/pallets/flask){: external}, [Django](https://www.djangoproject.com/){: external}, [Jupyter](https://jupyter.org/){: external}, and functional programming paradigms introduces special considerations that need to be observed by your SDK.
+{: shortdesc}
 
 ## Environment support
 {: #python-environment-support}
 
-* Your Python SDK should be written to support all [Python >=3.5](https://www.python.org/downloads/) releases.
-* Ensure your SDK is compatible with data science usecases, such as [Jupyter Notebooks](https://jupyter.org/).
+* Your Python SDK should be written to support all [Python >=3.10](https://www.python.org/downloads/){: external} releases.
+* Ensure your SDK is compatible with data science use cases, such as [Jupyter Notebooks](https://jupyter.org/){: external}.
 
 ## Publishing
 {: #python-publishing}
 
-All Python SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-opensrc).  The releases of these SDKs should be published on [PyPI](https://pypi.org/).
+All Python SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-opensrc). The releases of these SDKs should be published on [PyPI](https://pypi.org/){: external}.
 
 Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-semver).
 
 ## Community support
 {: #python-community-support}
 
-Allow your users to find answers to their questions.  Users should be able to report problems on GitHub by raising issues on your SDK repository.  Having a public Slack channel is a great way to engage with users who have questions specific to their use cases.
+Allow your users to find answers to their questions. Users should be able to report problems on GitHub by raising issues on your SDK repository. Having a public Slack channel is a great way to engage with users who have questions specific to their use cases.
 
 
 ## Style guidelines
 {: #python-style-guidelines}
 
-You should follow the [PEP8 style guide for Python](https://peps.python.org/pep-0008/), with a few modifications, like four spaces instead of tabs for indentation.
+You should follow the [PEP8 style guide for Python](https://peps.python.org/pep-0008/){: external}, with a few modifications, like four spaces instead of tabs for indentation.
 
 You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-devtools) for Python to check style and code coverage.
 
 ### Docstrings
 {: #python-docstrings}
 
-All non-trivial methods should have docstrings. Docstrings should follow the [PEP257 guidelines](https://peps.python.org/pep-0257/). For more examples, see the [Google style guide regarding docstrings](https://google.github.io/styleguide/pyguide.html#381-docstrings).
+All non-trivial methods should have docstrings. Docstrings should follow the [PEP257 guidelines](https://peps.python.org/pep-0257/){: external}. For more examples, see the [Google style guide regarding docstrings](https://google.github.io/styleguide/pyguide.html#381-docstrings){: external}.
 
 ## Dependencies
 {: #python-dependencies}
 
-Your Python SDK should use synchronous network calls, using a library like [requests](https://pypi.org/project/requests/).
+Your Python SDK should use synchronous network calls, using a library like [requests](https://pypi.org/project/requests/){: external}.
 
-[PyJWT](https://pyjwt.readthedocs.io/en/latest/) is recommended for encoding and decoding JSON web tokens.
+[PyJWT](https://pyjwt.readthedocs.io/en/latest/){: external} is recommended for encoding and decoding JSON web tokens.
 
-Your SDK should use [**logging**](https://docs.python.org/3/library/logging.html) to assist users with low-level debugging.
+Your SDK should use [**logging**](https://docs.python.org/3/library/logging.html){: external} to assist users with low-level debugging.
 
 
 ## Standard features
 {: #python-standard-features}
 
-## Authentication
+### Authentication
 {: #python-authentication}
 
 You are not required to use a particular library to provide the authentication for your service.
 
 Your SDK must support all of the authentication methods for your service.
 
-## Configuration
+### Configuration
 {: #python-configuration}
 
-In the interests of making your SDK easy to consume and cloud native, you should provide the ability to read in environment variables.  Abstracting the application logic from the environment logic allows your users to focus on using your service capabilities their applications.
+In the interests of making your SDK easy to consume and cloud native, you should provide the ability to read in environment variables. Abstracting the application logic from the environment logic allows your users to focus on using your service capabilities in their applications.
 
 If you build this capability into your SDK, you must document this mechanism clearly with examples.
 
-
-## Using python-sdk-core
+### Using python-sdk-core
 {: #python-core}
 
-[IBM **python-sdk-core**](https://github.com/IBM/python-sdk-core) provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
+[IBM **python-sdk-core**](https://github.com/IBM/python-sdk-core){: external} provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
 
 
 ## Documentation

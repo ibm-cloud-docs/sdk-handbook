@@ -1,33 +1,38 @@
 ---
 
 copyright:
-  years: 2019, 2025
-lastupdated: "2025-09-05"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, node, node sdk, javascript, typescript, npm, style guidelines
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Node
 {: #node}
 
-As one of the most popular programming languages in use today, JavaScript support is imperative to increase adoption of your IBM Cloud service.  The great strength of JavaScript is its flexibility; it can be used in backend [Node.js](https://nodejs.org/) applications, as well as in client side frameworks like [React](https://react.dev/), [Angular](https://angularjs.org/) and [Vue](https://vuejs.org/), among others.  This introduces special considerations that need to be observed in order to meet the needs of these diverse use cases.
+As one of the most popular programming languages in use today, JavaScript support is imperative to increase adoption of your IBM Cloud service. The great strength of JavaScript is its flexibility; it can be used in backend [Node.js](https://nodejs.org/){: external} applications, as well as in client side frameworks like [React](https://react.dev/){: external}, [Angular](https://angularjs.org/){: external} and [Vue](https://vuejs.org/){: external}, among others. This introduces special considerations that need to be observed in order to meet the needs of these diverse use cases.
+{: shortdesc}
 
 ## TypeScript
 {: #node-typescript}
 
-Your JavaScript library should be written in [TypeScript](https://www.typescriptlang.org/).  This will allow TypeScript applications and JavaScript alike to use your SDK.
+Your JavaScript library should be written in [TypeScript](https://www.typescriptlang.org/){: external}. This will allow TypeScript applications and JavaScript alike to use your SDK.
 
 ## Environment support
 {: #node-environment-support}
 
-* All [LTS versions](https://nodejs.org/en/about/previous-releases) of Node should be supported by your SDK.
+* All [LTS versions](https://nodejs.org/en/about/previous-releases){: external} of Node should be supported by your SDK.
 * Your SDK should support all TypeScript releases above 3.1.
 
 ## Publishing
 {: #node-publishing}
 
-All Node SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-opensrc).  The releases of these SDKs should be published on [NPM](https://www.npmjs.com/). Your NPM package should be [scoped](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages#creating-a-scoped-public-package) with [`@ibm-cloud`](https://www.npmjs.com/search?q=%40ibm-cloud), so that NPM users can find similar packages across NPM.
+All Node SDKs should be publicly available on an [IBM GitHub organization](/docs/sdk-handbook?topic=sdk-handbook-distribution#distribution-opensrc). The releases of these SDKs should be published on [NPM](https://www.npmjs.com/){: external}. Your NPM package should be [scoped](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages#creating-a-scoped-public-package){: external} with [`@ibm-cloud`](https://www.npmjs.com/search?q=%40ibm-cloud){: external}, so that NPM users can find similar packages across NPM.
 
 To avoid unnecessary redundancy, package names MUST NOT include the term "node". For example, the Platform Services Node SDK would use the NPM package name of `@ibm-cloud/platform-services`, not `@ibm-cloud/platform-services-node-sdk`.
 
@@ -36,13 +41,13 @@ Your SDK should follow the [semantic versioning best practices](/docs/sdk-handbo
 ## Community support
 {: #node-community-support}
 
-Allow your users to find answers to their questions.  Users should be able to report problems on GitHub by raising issues on your SDK repository.  Having a public Slack channel is a great way to engage with users who have questions specific to their use cases.
+Allow your users to find answers to their questions. Users should be able to report problems on GitHub by raising issues on your SDK repository. Having a public Slack channel is a great way to engage with users who have questions specific to their use cases.
 
 
 ## Style guidelines
 {: #node-style-guidelines}
 
-You should follow the [Airbnb conventions](https://github.com/airbnb/javascript), with two spaces for indentation.
+You should follow the [Airbnb conventions](https://github.com/airbnb/javascript){: external}, with two spaces for indentation.
 
 You should use the standard [development tools](/docs/sdk-handbook?topic=sdk-handbook-devtools) for JavaScript to check style and code coverage.
 
@@ -54,7 +59,7 @@ If your API takes fileType parameters, you should accept Node.js streams as an i
 ## Dependencies
 {: #node-dependencies}
 
-Use a well-defined, well-documented request library that includes browser support, like [axios](https://github.com/axios/axios), [superagent](https://github.com/forwardemail/superagent), or [node-fetch](https://github.com/node-fetch/node-fetch).
+Use a well-defined, well-documented request library that includes browser support, like [axios](https://github.com/axios/axios){: external}, [superagent](https://github.com/forwardemail/superagent){: external}, or [node-fetch](https://github.com/node-fetch/node-fetch){: external}.
 
 ## Objects for arguments
 {: #node-objects-for-arguments}
@@ -70,24 +75,24 @@ All network calls from your SDK should be asynchronous. All asynchronous calls s
 ## Standard features
 {: #node-standard-features}
 
-## Authentication
+### Authentication
 {: #node-authentication}
 
 You are not required to use a particular library to provide the authentication for your service.
 
 Your SDK must support all of the authentication methods for your service.
 
-## Configuration
+### Configuration
 {: #node-configuration}
 
-In the interests of making your SDK easy to consume and cloud native, you should provide the ability to read in environment variables.  Abstracting the application logic from the environment logic allows your users to focus on using your service capabilities their applications.
+In the interests of making your SDK easy to consume and cloud native, you should provide the ability to read in environment variables. Abstracting the application logic from the environment logic allows your users to focus on using your service capabilities in their applications.
 
 If you build this capability into your SDK, you must document this mechanism clearly with examples.
 
-## Using node-sdk-core
+### Using node-sdk-core
 {: #node-core}
 
-[IBM `node-sdk-core`](https://github.com/IBM/node-sdk-core) provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
+[IBM `node-sdk-core`](https://github.com/IBM/node-sdk-core){: external} provides configuration and authentication support. You can use the existing functionality provided by this dependency in your SDK.
 
 
 ## Documentation

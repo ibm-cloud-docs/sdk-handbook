@@ -1,8 +1,10 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2025-09-05"
+  years: 2021, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, testing, unit testing, integration testing, test coverage
 
 subcollection: sdk-handbook
 
@@ -12,6 +14,9 @@ subcollection: sdk-handbook
 
 # Testing
 {: #testing}
+
+These guidelines define the unit and integration testing requirements for an SDK.
+{: shortdesc}
 
 ## Unit testing
 {: #testing-unit}
@@ -41,4 +46,4 @@ Integration tests MUST:
 Integration tests SHOULD:
 * Include negative tests of common error conditions
 * Include tests involving each error response status code defined in the service's API definition
-* Excercise pagination for each "list"-type operation that supports pagination
+* Exercise pagination for each "list"-type operation that supports pagination

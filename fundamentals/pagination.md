@@ -1,14 +1,22 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, pagination, pagination helpers
 
 subcollection: sdk-handbook
 
 ---
+
+{{site.data.keyword.attribute-definition-list}}
+
 # Pagination
 {: #pagination}
+
+These guidelines define how an SDK must support pagination for API operations that return paginated results.
+{: shortdesc}
 
 ## Support for pagination features in the API
 {: #pagination-api}

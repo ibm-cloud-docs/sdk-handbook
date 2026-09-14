@@ -1,15 +1,22 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, coding style, coding conventions, idiomatic style
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Coding style
 {: #coding-style}
+
+The SDK coding style defines the conventions and best practices for writing consistent, idiomatic SDK code.
+{: shortdesc}
 
 ## Coding conventions
 {: #coding-style-coding-conventions}

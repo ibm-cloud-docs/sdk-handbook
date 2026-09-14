@@ -1,20 +1,27 @@
 ---
 
 copyright:
-  years: 2019, 2021
-lastupdated: "2021-10-27"
+  years: 2019, 2026
+lastupdated: "2026-09-14"
+
+keywords: sdk, distribution, open source, package management, semantic versioning
 
 subcollection: sdk-handbook
 
 ---
 
+{{site.data.keyword.attribute-definition-list}}
+
 # Distribution
 {: #distribution}
+
+These guidelines define how an SDK is published, licensed, and versioned for consumption by developers.
+{: shortdesc}
 
 ## Open-source
 {: #distribution-opensrc}
 
-The SDK MUST be open-source and hosted on a public GitHub repository in the [IBM organization](https://github.com/IBM). The repository name SHOULD follow the pattern of `<service>-<language>-sdk` (for example, `platform-services-node-sdk`).
+The SDK MUST be open-source and hosted on a public GitHub repository in the [IBM organization](https://github.com/IBM){: external}. The repository name SHOULD follow the pattern of `<service>-<language>-sdk` (for example, `platform-services-node-sdk`).
 The SDK SHOULD be discoverable through simple GitHub and Google searches.
 The SDK SHOULD use the Apache 2.0 license.
 
@@ -35,5 +42,5 @@ that might occur in major version updates.
 ## Semantic versioning
 {: #distribution-semver}
 
-The SDK MUST use [semantic versioning](https://semver.org/) for SDK releases
+The SDK MUST use [semantic versioning](https://semver.org/){: external} for SDK releases
 (this requirement is enforced by some package management systems).
